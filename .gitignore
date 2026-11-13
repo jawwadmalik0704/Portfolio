@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Logs and caches
+*.log
+npm-debug.log*
+.cache/
+.turbo/
+*.tsbuildinfo
+
+# Playwright
+.playwright-mcp/
+playwright-report/
+test-results/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Claude Code local-only settings
+.claude/settings.local.json
